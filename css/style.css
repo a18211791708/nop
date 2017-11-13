@@ -1,0 +1,83 @@
+/* 重置 */
+*{padding: 0;margin: 0;}
+body{font:12px/1.5 "微软雅黑";color:#000;}
+a{text-decoration: none;color:#000}
+li{list-style: none;}
+img{border:none;vertical-align:bottom;}
+.clearfix:after{content: "\200b";display: block;height: 0;clear: both;}
+.clearfix{*zoom: 1;}
+.fl{float: left;}
+.fr{float: right;}
+/*公共外围容器*/
+.wrapper{width: 983px;margin: 0 auto;}
+/* 顶部 */
+.top{width: 100%;background-color: #fbfbfb;height: 25px;border-bottom: 1px solid #ccc;line-height: 25px;min-width: 983px;}
+h1{font-size: 12px;font-weight: normal;}
+.minBar{width: 150px;text-align: right;}
+.minBar a{margin-left: 20px;}
+/*头部*/
+.header{padding:25px 0}
+.logo{width: 370px;background: url(../images/10_06.gif) no-repeat right center;}
+.searchBox{width: 270px;margin-top: 15px;margin-left: 20px;}
+.btn{height: 34px;width: 60px;background-color: #338AE1;border:none;color:#fff;vertical-align: middle;}
+.sBox{width: 180px;height: 30px;background: url(../images/10_009.gif) no-repeat 5px center;border:1px solid #ccc;padding-left: 20px;outline: none;vertical-align: middle;padding-top: 2px;}
+.tel{width: 280px;background-color: red;text-align: right;background: url(../images/10_09.gif) no-repeat left center;height: 31px;line-height: 31px;font-size: 29px;margin-top: 15px;color:#A90505;font-style: italic;}
+/*导航条*/
+.nav{height: 40px;min-width: 983px;background-color: #0b58a5}
+.nav li{display: inline-block;border-left: 1px solid #2e71b3;}
+.nav li a{color:#fff;font-size: 14px;line-height: 40px;border-right: 1px solid #064584;padding: 0 30px;display: block;}
+.nav li:first-child{border:none;background-color: #338AE1}
+.nav .noneLine{border:none}
+/*banner*/
+.banner{margin: 10px 0;}
+/*关于我们*/
+.honor{width: 750px;border:1px solid #ccc}
+.wrapper h2{background: url(../images/10_023_23.gif);height: 34px;border-bottom: 1px solid #ccc;font-size: 14px;padding-left: 15px;line-height: 34px;color:#9E9E9E;}
+.minBanner{width: 320px;margin: 10px;}
+.textArea{width: 400px;}
+.textArea p{line-height: 2;text-indent: 24px;padding:10px;margin-top: 10px;text-align: justify;}
+/*登录*/
+.login{width: 217px;border:1px solid #ccc;}
+.login label{display: block;margin: 5px 0;margin-left: 10px;}
+.login .loginInfo input{width: 130px;border:1px solid #ccc;padding:2px 5px;outline: none;}
+.login .loginBtn input{background-color: #338AE1;color:#fff;padding:3px 20px;border:none;margin-left: 10px;}
+.login .loginBtn{margin-top: 10px;margin-bottom: 21px;}
+/*产品展示*/
+.products{background: url(../images/10-001.gif);width: 100%;float: left;margin-top: 10px;position: relative;}
+.proArea{background-color: #fff;margin: 10px;padding-bottom: 10px;}
+.products li{display: inline-block;border:1px solid #ccc;margin-left: 15px;}
+.products ul{padding-left: 45px;}
+.products span{display: block;width: 19px;height: 38px;position: absolute;top:130px;}
+.products span a{display: block;width: 19px;height: 38px;}
+.products .leftArr{background: url(../images/10_35.gif);left:30px}
+.products .rightArr{background: url(../images/10_38.gif);right:30px}
+/*内容公共标题*/
+.columTitle{height: 50px;line-height: 50px;border-bottom: 1px dashed #ccc;padding-left: 10px;margin-bottom: 10px;}
+.columTitle strong{font-size: 14px;font-weight: 500;color:#9E9E9E}
+.columTitle a{margin-right: 10px;float: right;}
+.titleMargin{margin-right: 20px;}
+/*正文容器*/
+.main{border:1px solid #ccc;float: left;width: 963px;padding:10px;margin-top: 10px;}
+.help{width: 370px;background: url(../images/10_47.gif) no-repeat right center;}
+.help dl{line-height: 2;font-family: "宋体";color:#414141;border-bottom: 1px dashed #ccc;padding-bottom: 20px;margin-right: 20px;}
+.help dl:last-child{border:none}
+/*资讯*/
+.news{width: 570px;}
+.pic{width: 196px;}
+.content{width: 360px;margin-left: 10px;}
+.content strong{display: block;margin-bottom: 15px;}
+.content p{line-height: 2;}
+.newsContent{border-bottom: 1px dashed #ccc;padding-bottom: 20px;}
+.newsList li{line-height: 2;}
+.newsList span{float: right;}
+/*友情链接*/
+.links{border:1px solid #ccc;width: 100%;margin: 10px 0;}
+.links li{display: inline-block;line-height: 50px;margin-left: 20px;}
+.links ul{padding-left: 10px;}
+/*底部导航 */
+.footerBbar{height: 40px;width: 100%;background-color: #064584;float: left;line-height: 40px;text-align: center;color:#fff}
+.footerBbar a{color:#fff;padding:0 15px}
+/*版权*/
+.footer{float: left;padding:20px 80px}
+.minLogo{width: 213px;border-right: 1px solid #ccc;padding-right: 20px;}
+.copyright{margin-left: 30px;font-family: "宋体";}
